@@ -18,7 +18,7 @@ import PageFooter from '~/components/layouts/PageFooter/index.vue'
     PageFooter
   }
 })
-export default class MetalLayout extends Vue {
+export default class extends Vue {
   isMenuShown: boolean = false
 }
 </script>

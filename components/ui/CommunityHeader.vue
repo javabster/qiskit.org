@@ -41,7 +41,7 @@ import Vue from 'vue'
 import { Component, Prop } from 'vue-property-decorator'
 
 @Component
-export default class CommunityHeader extends Vue {
+export default class extends Vue {
   @Prop(String) mainTitle!: string
   @Prop({ type: String, default: 'end' }) asidePosition!: 'start'|'end'
   @Prop({ type: Boolean, default: false }) noGradient!: boolean

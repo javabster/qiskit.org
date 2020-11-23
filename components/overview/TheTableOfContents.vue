@@ -25,7 +25,7 @@ import { TableOfContentEntry } from '~/constants/overviewContent'
 @Component({
   components: { AppLink }
 })
-export default class TheTableOfContents extends Vue {
+export default class extends Vue {
   @Prop({ type: Array, default: [] }) entries!: Array<TableOfContentEntry>
   @Prop(String) activeSection!: string
 

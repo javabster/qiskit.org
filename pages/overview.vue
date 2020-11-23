@@ -89,7 +89,7 @@ import ScrollSectionsMixin from '~/mixins/scrollBetweenSections'
     }
   }
 })
-export default class OverviewPage extends QiskitPage {
+export default class extends QiskitPage {
   routeName = 'overview'
 
   tocEntries = TABLE_OF_CONTENTS

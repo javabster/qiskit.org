@@ -30,7 +30,7 @@ import Vue from 'vue'
 import { Component, Prop } from 'vue-property-decorator'
 
 @Component
-export default class PageSection extends Vue {
+export default class extends Vue {
   @Prop({ type: String, default: 'end' }) asidePosition!: 'start' | 'end';
   @Prop({ type: Boolean, default: false }) framed!: boolean;
 }

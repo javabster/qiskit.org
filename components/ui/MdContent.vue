@@ -3,7 +3,7 @@ import Vue from 'vue'
 import { Component, Prop } from 'vue-property-decorator'
 
 @Component
-export default class MdContent extends Vue {
+export default class extends Vue {
   @Prop(String) renderFn!: any
   @Prop(String) staticRenderFns!: any
 
